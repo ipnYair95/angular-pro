@@ -1,0 +1,21 @@
+:host {
+
+  display: block;
+
+}
+
+button {
+  @apply w-full h-16 outline-none focus:outline-none hover:bg-indigo-700 hover:bg-opacity-20 text-white text-xl font-light
+}
+
+.is-command {
+  @apply bg-indigo-700 bg-opacity-10
+}
+
+.is-double-size {
+  @apply w-2/4
+}
+
+.is-pressed{
+  @apply bg-indigo-700 bg-opacity-20
+}
